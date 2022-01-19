@@ -26,8 +26,8 @@ const Explanation = () => {
       square
       className={classes.explanation}
     >
-      <Typography variant="subtitle2" paragraph gutterBottom>
-        Los <strong>primeros</strong> pobladores de Bogotá
+      <Typography variant="subtitle1" paragraph gutterBottom>
+        Los <strong>primeros </strong> pobladores de Bogotá
         <Emoji symbol="✌️" label="victory" />
         fueron los Muiscas, pertenecientes a la familia lingüística Chibcha. A
         la llegada de los conquistadores, se calcula que había medio millón de
@@ -59,8 +59,8 @@ const Explanation = () => {
         style={{ margin: "1rem 3rem" }}
       >
         <Emoji symbol="👉" label="señal" />
-        <strong>La Expedición Botánica</strong>
-        El aporte más importante de esta época al conocimiento científico de la
+        <strong>La Expedición Botánica  </strong>
+         el aporte más importante de esta época al conocimiento científico de la
         naturaleza americana está constituido por la Expedición Botánica, cuyo
         objetivo fue el estudio de la flora nativa. Inició por orden del
         arzobispo-virrey Caballero y Góngora bajo la dirección de José Celestino
@@ -78,7 +78,7 @@ const Explanation = () => {
         style={{ margin: "1rem 3rem" }}
       >
         <Emoji symbol="👉" label="señal" />
-        <strong>La Religión</strong>Después de haber dominado a los indígenas a
+        <strong>La Religión </strong>después de haber dominado a los indígenas a
         través de la guerra, comenzó la conquista de las conciencias por la
         religión con ayuda de las órdenes religiosas que se establecieron desde
         el siglo XVI en todo el territorio de la actual Colombia. Se

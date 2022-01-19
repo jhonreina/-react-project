@@ -1,11 +1,17 @@
-import { makeStyles } from "@material-ui/core"
-
+import { makeStyles, Paper, Typography } from "@material-ui/core"
+import ListGallery from "./ListGallery"
 const Presentation = () => {
         const classes = useStyles()
 
     return (
-
-        <h1>Esta es la presentacion...</h1>
+        <Paper variant="outlined" square elevation={0} className={classes.Presentation}>
+          <Typography variant="h5">
+            Our packege includes
+          </Typography>
+          <ListGallery/>
+        </Paper>
+        
+        
     )
     
         
@@ -16,9 +22,10 @@ export default Presentation;
 
 
 
-
-
-
 const useStyles = makeStyles((theme) => ({
-  root: {},
+  Presentation: {
+    width:"inherit",
+    height:"auto",
+    padding:theme.spacing(2),
+  },
 }));
